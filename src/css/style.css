@@ -1,0 +1,97 @@
+/* ----- RESET ----- */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----- DEFAULT ----- */
+body {
+    background-color: rgb(110, 181, 205);
+    width: 100vw;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    padding: 0 3rem;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    min-height: 80vh;
+    color: #434343;
+    background-color: rgb(110, 181, 205);
+}
+
+.view-limit {
+    max-width: 48rem;
+    width: 100%;
+}
+
+/* ----- CARD ----- */
+.container {
+    background-color: rgb(252, 251, 249);
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+
+.container .illustration {
+    max-width: 48rem;
+    width: 100%;
+    padding: 1.5rem ;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+
+.container .illustration img {
+    max-width: 16rem;    
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container h1 {
+    margin: 2.5rem auto;
+}
+
+/*
+.container p {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container .form {
+   background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.container .form .item {
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+#button {
+    padding: .75rem 2rem;
+    background-color: rgb(203, 135, 17);
+    border: none;   
+    border-radius: 5rem;
+    color: rgb(252, 251, 249);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#button:hover {
+    background-color: blueviolet;
+}
+
+#result {
+    width: 300px;
+    height: 50px;
+    background-color: darkkhaki;
+}
